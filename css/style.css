@@ -8,6 +8,12 @@ body{
     display: flex;
 
 }
+.logo img:hover{
+    width: 120px;
+    height: 70px;
+    transition: 0.5s;
+
+}
 #search {
     width: 300px;
     height: 50px;
@@ -23,6 +29,7 @@ body{
     font-size: large;
     border-radius: 10px;
     border: #213448 5px solid;
+    text-align: center;
 }
 
 #search:hover{
@@ -31,6 +38,7 @@ body{
     border: #213448 5px solid;
     transition: 0.5s;
     border-radius: 10px;
+    text-align: center;
 
 }
 
@@ -92,15 +100,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    /* background-color: #213448; */
     text-align: flex;
     border-radius: 10px;
+    border: none;
+    margin-bottom: 5% !important;
 }
+.filme {
+    border: none;
 
+}
 .filme:hover{
-    background-color: #213448;
+    /* background-color: #213448; */
     border-radius: 10px;
     transition: 0.5s;
+    width: 170px;
+    height: 230px;
 }
 
 .filme img{
@@ -111,8 +126,8 @@ body{
 }
 
 .filme img:hover{
-    width: 150px;
-    height: 200px;
+    width: 170px;
+    height: 230px;
     border-radius: 10px;
     transition: 0.5s;
     opacity: 0.5;
