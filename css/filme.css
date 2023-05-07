@@ -24,6 +24,8 @@
     color: white;
     font-size: 5rem;
     padding: 20px 0;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
 }
 
 .filmeContent {
@@ -53,8 +55,10 @@ div .imagenFilme {
 
 .descricaoFilme {
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     text-align: justify;
     padding: 20px;
-    width: 100%;
+    width: 70%;
 }
+
+
